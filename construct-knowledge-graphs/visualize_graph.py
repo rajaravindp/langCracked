@@ -3,9 +3,6 @@ import matplotlib.pyplot as plt
 
 def visualize_graph(graph_doc: any) -> None:
     """"Visualizes graph document."""
-    import networkx as nx
-    import matplotlib.pyplot as plt
-
     G = nx.DiGraph()
 
     for node in graph_doc.nodes:
